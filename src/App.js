@@ -23,6 +23,7 @@ import Offer from "./pages/Offer/Offer";
 import Payment from "./pages/payment/Payment";
 import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Shop from "./pages/Shop/Shop";
+import OrderCheckout from "./pages/payment/OrderCheckout"; // Import the OrderCheckout component
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -51,6 +52,7 @@ const Layout = () => {
     </div>
   );
 };
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
@@ -67,6 +69,7 @@ const router = createBrowserRouter(
         <Route path="/product/:_id" element={<ProductDetails />}></Route>
         <Route path="/cart" element={<Cart />}></Route>
         <Route path="/paymentgateway" element={<Payment />}></Route>
+        <Route path="/ordercheckout" element={<OrderCheckout />}></Route> {/* Add the OrderCheckout route */}
       </Route>
       <Route path="/signup" element={<SignUp />}></Route>
       <Route path="/signin" element={<SignIn />}></Route>

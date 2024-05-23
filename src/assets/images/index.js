@@ -67,14 +67,16 @@ import cam1 from "../images/products/imprimante/cam1.png";
 import cam2 from "../images/products/imprimante/cam2.png";
 import cam3 from "../images/products/imprimante/cam3.png";
 
-import ricoh1 from "../images/products/imprimante/ricoh1.webp";
-import ricoh2 from "../images/products/imprimante/ricoh2.webp";
-import ricoh3 from "../images/products/imprimante/ricoh3.webp";
-import ricoh4 from "../images/products/imprimante/ricoh4.webp";
-import ricoh5 from "../images/products/imprimante/ricoh5.webp";
+import watch1 from "../images/products/imprimante/watch1.png";
+import watch2 from "../images/products/imprimante/watch2.png";
+import watch3 from "../images/products/imprimante/watch3.png";
+import watch4 from "../images/products/imprimante/watch4.png";
+import watch5 from "../images/products/imprimante/watch5.png";
 
-import espson1 from "../images/products/imprimante/espson1.webp";
-import espson2 from "../images/products/imprimante/espson2.webp";
+import keyb1 from "../images/products/imprimante/keyb1.png";
+import keyb2 from "../images/products/imprimante/keyb2.png";
+import keyb3 from "../images/products/imprimante/keyb3.jpg";
+import keyb4 from "../images/products/imprimante/keyb4.png";
 
 export {
   logo,
@@ -149,11 +151,13 @@ export {
   cam3,
 
   // imprimante Ricoh
-  ricoh1,
-  ricoh2,
-  ricoh3,
-  ricoh4,
-  ricoh5,
-  espson1,
-  espson2,
+  watch1,
+  watch2,
+  watch3,
+  watch4,
+  watch5,
+  keyb1,
+  keyb2,
+  keyb3,
+  keyb4,
 };

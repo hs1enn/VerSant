@@ -16,42 +16,49 @@ const Brand = () => {
       _id: 900,
       title: "Acer",
     },
+
     {
       _id: 901,
       title: "Apple",
     },
-    {
-      _id: 902,
-      title: "Logitech",
-    },
 
     {
       _id: 903,
-      title: "Marshall",
+      title: "Everton",
     },
 
     {
       _id: 904,
-      title: "MSI",
+      title: "Logitech",
     },
 
     {
       _id: 905,
-      title: "Razer",
+      title: "Marshall",
     },
 
     {
       _id: 906,
-      title: "Samsung",
+      title: "MSI",
     },
 
     {
       _id: 907,
-      title: "Polaroid",
+      title: "Razer",
     },
 
     {
       _id: 908,
+      title: "Samsung",
+    },
+
+    {
+      _id: 909,
+      title: "Polaroid",
+    },
+
+    {
+      _id: 910,
       title: "Nikon",
     },
 
