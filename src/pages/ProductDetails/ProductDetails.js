@@ -22,7 +22,7 @@ const tabs = [
       <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/watch?v=6e0yIRDVPlA&list=RD6e0yIRDVPlA&start_radio=1"
+        src="https://www.youtube.com/embed/hcLljo9IlVY"
         title="YouTube Video"
         frameBorder="0"
         allowFullScreen

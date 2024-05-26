@@ -160,18 +160,18 @@ const Banner = () => {
   const slides = [
     {
       imgSrc: bannerImgOne,
-      buttonLink: "/offer",
+      buttonLink: "/shop",  // Updated to navigate to Shop page
       buttonText: "Shop Now",
     },
     {
       imgSrc: bannerImgTwo,
-      buttonLink: "/shop",
-      buttonText: "About-us",
+      buttonLink: "/about",  // Updated to navigate to About page
+      buttonText: "About Us",
     },
     {
       imgSrc: bannerImgThree,
-      buttonLink: "/contact",
-      buttonText: "Contact-us",
+      buttonLink: "/contact",  // Updated to navigate to Contact page
+      buttonText: "Contact Us",
     },
   ];
 
