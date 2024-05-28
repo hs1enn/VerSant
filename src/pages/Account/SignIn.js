@@ -4,6 +4,10 @@ import { Link } from "react-router-dom";
 import { logoLight } from "../../assets/images";
 
 const SignIn = () => {
+  // Default account details
+  const defaultEmail = "02jamesnathan@gmail.com";
+  const defaultPassword = "123qwe";
+
   // ============= Initial State Start here =============
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -34,15 +38,20 @@ const SignIn = () => {
     if (!password) {
       setErrPassword("Create a password");
     }
-    // ============== Getting the value ==============
+
+    // ============== Validation ==============
     if (email && password) {
-      setSuccessMsg(
-        `Hello dear, Thank you for your attempt. We are processing to validate your access. Till then stay connected and additional assistance will be sent to you by your mail at ${email}`
-      );
-      setEmail("");
-      setPassword("");
+      if (email === defaultEmail && password === defaultPassword) {
+        setSuccessMsg("Login Successfully!");
+        setErrEmail("");
+        setErrPassword("");
+      } else {
+        setErrEmail("Incorrect email or password");
+        setErrPassword("Incorrect email or password");
+      }
     }
   };
+
   return (
     <div className="w-full h-screen flex items-center justify-center">
       <div className="w-1/2 hidden lgl:inline-flex h-full text-white">
